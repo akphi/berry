@@ -91,16 +91,16 @@ export class StatEntry {
 }
 
 export class BigIntStatsEntry {
-  uid = BigInt(0)
-  gid = BigInt(0)
+  uid = BigInt(0);
+  gid = BigInt(0);
 
-  size = BigInt(0)
-  blksize = BigInt(0)
+  size = BigInt(0);
+  blksize = BigInt(0);
 
-  atimeMs = BigInt(0)
-  mtimeMs = BigInt(0)
-  ctimeMs = BigInt(0)
-  birthtimeMs = BigInt(0)
+  atimeMs = BigInt(0);
+  mtimeMs = BigInt(0);
+  ctimeMs = BigInt(0);
+  birthtimeMs = BigInt(0);
 
   atimeNs = BigInt(0);
   mtimeNs = BigInt(0);
